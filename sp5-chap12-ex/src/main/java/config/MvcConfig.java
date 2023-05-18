@@ -16,7 +16,7 @@ import controller.RegisterRequestValidator;
 @Configuration
 @EnableWebMvc
 public class MvcConfig implements WebMvcConfigurer {
-	
+
 	@Override
 	public Validator getValidator() {
 		return new RegisterRequestValidator();
